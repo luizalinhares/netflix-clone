@@ -1,0 +1,229 @@
+:root{
+  --vermelho:#003cff;
+  --preta:#000000;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*elementos base*/
+body{
+ background: var(--preta);
+ font-family: 'Baloo 2', cursive;
+ font-weight: bold;
+ font-size: 20px;
+ color:rgb(255, 255, 255);
+ padding: 20px;
+ 
+}
+
+
+header .container{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  margin-left:1px;
+  
+  
+}
+
+header .logo{
+  margin: 10px;
+  
+  
+  
+  
+  font-family: 'Luckiest Guy', cursive;
+  font-size:40px;
+  font-weight: lighter;
+}
+
+.c{
+  color: yellow;
+}
+
+.a{
+  color: blue;
+}
+.r{
+ color: rgb(255, 0, 242);
+}
+.t{
+  color:orangered;
+}
+.o{
+  color: rgb(255, 255, 255);
+  border-top: 5px;
+  border-top-style:groove;
+  border-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+  
+}
+
+.n{
+  color: red;
+}
+.f{
+ color: rgb(148, 4, 214);
+}
+.l{
+ color: rgb(0, 245, 0);
+}
+.i{
+ color: rgb(255, 0, 149);
+}
+.x{
+ color: rgb(0, 217, 255);
+}
+
+header nav a{
+  
+  text-decoration:none;
+  color:rgb(255, 251, 0);
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+
+
+header nav a:hover{
+  color:rgb(234, 0, 255);
+}
+
+/*filme principal*/
+.filme-principal{
+  font-size:20px;
+  background: radial-gradient(rgba(31, 220, 226, 0.3),rgba(0, 0, 0, 0.8)100%),  url('/img/capa-house.jpg');
+
+  height:600px;
+  background-size:cover;
+
+  border: 1px;
+  border-radius: 10px;
+
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:baseline;
+  
+}
+
+
+.filme-principal .descricao{
+  margin-top: 1px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+
+.filme-principal .logopic{
+ height: 160px;
+ 
+}
+
+
+
+
+
+.botao{
+  background-color: rgb(10, 138, 189);
+  border:3px;
+  
+  border-radius: 10px;
+  
+  color: rgb(166, 255, 0);
+
+  padding:20px 20px;
+  margin-right: 15px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: .10s ease all;
+}
+
+.botao:hover{
+  opacity:0.9;
+  color:rgb(255, 166, 0);
+  
+}
+
+.botao i{
+  margin-right: 5px;
+}
+
+
+
+
+.container{
+  margin-left: 15px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display:block;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+.carrosel-filmes{
+  margin-top:10px;
+
+}
+
+
+
+.box-title {
+  color: rgb(255, 4, 234);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
+  
+  
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.box-title2 {
+  color: rgb(0, 255, 0);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
+  
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+
+.box-title4 {
+  color: rgb(255, 0, 0);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
